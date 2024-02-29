@@ -8,11 +8,11 @@
  */
 int main(void)
 {
-    char str[] = "Look up!\n";
-    char *ptr;
+    char *str;
+    int len;
 
-    ptr = string_toupper(str);
-    printf("%s", ptr);
-    printf("%s", str);
+    str = "My first strlen!";
+    len = _strlen(str);
+    printf("%d\n", len);
     return (0);
 }
