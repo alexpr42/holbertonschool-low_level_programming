@@ -1,16 +1,13 @@
 #ifndef LISTS_H
 #define LISTS_H
 
-#include <stddef.h>
+#include <stdlib.h>
 
 /**
- * struct dlistint_s - doubly linked list node
- * @n: integer stored in the node
- * @prev: pointer to the previous element of the list
- * @next: pointer to the next element of the list
- *
- * Description: doubly linked list node structure
- * 
+ * struct dlistint_s - Doubly linked list node structure
+ * @n: Integer stored in the node
+ * @prev: Pointer to the previous element of the list
+ * @next: Pointer to the next element of the list
  */
 typedef struct dlistint_s
 {
@@ -19,6 +16,8 @@ typedef struct dlistint_s
     struct dlistint_s *next;
 } dlistint_t;
 
+/* Function prototypes */
 size_t print_dlistint(const dlistint_t *h);
 
 #endif /* LISTS_H */
+
