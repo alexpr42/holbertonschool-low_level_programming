@@ -20,7 +20,7 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 
 	/* If head is NULL or index exceeds the number of nodes, return NULL */
 	if (head == NULL)
-			return (NULL);
+		return (NULL);
 
 	return (head);
 }
